@@ -13,12 +13,10 @@ pipeline {
             steps {
                 script {
                      addition.add(10,10)
-					 addition.add(20,20)
+		     addition.add(20,20)
                 }
         
             }
-        }
-        
-        
+        }   
     }
 }
